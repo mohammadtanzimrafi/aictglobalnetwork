@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AICT Global Network - আপনার নির্ভরযোগ্য ইন্টারনেট পরিষেবা প্রদানকারী"
+    />
+    <title>AICT Global Network — আপনার নির্ভরযোগ্য ইন্টারনেট</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <img src="Logo.jpg" alt="AICT Global Network" class="logo-img" />
+          <h1>AICT Global Network</h1>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href="#home">হোম</a></li>
+            <li><a href="#services">সেবাসমূহ</a></li>
+            <li><a href="#packages">প্যাকেজ</a></li>
+            <li><a href="#speed-test">স্পিড টেস্ট</a></li>
+            <li><a href="#coverage">কভারেজ</a></li>
+            <li><a href="#ftp">FTP</a></li>
+            <li><a href="#contact">যোগাযোগ</a></li>
+          </ul>
+        </nav>
+        <div class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h2 class="hero-title">উচ্চ-গতির ইন্টারনেটের অভিজ্ঞতা নিন</h2>
+            <p class="hero-subtitle">
+              ২৪/৭ মনিটরিং, দ্রুত সাপোর্ট, এবং আসল-গতির ব্রডব্যান্ড
+            </p>
+            <p class="hero-description">
+              এইচডি স্ট্রিমিং, গেমিং এবং রিমোট ওয়ার্কের জন্য পারফেক্ট সমাধান
+            </p>
+
+            <!-- WhatsApp Message Form -->
+            <div class="whatsapp-form-container">
+              <div class="whatsapp-form">
+                <h3 class="form-title">আপনার এলাকায় সার্ভিস চেক করুন</h3>
+                <p class="form-subtitle">
+                  আপনার নাম ও ঠিকানা দিন, আমরা WhatsApp-এ সার্ভিস ডিটেইলস পাঠাব
+                </p>
+
+                <form id="whatsappForm" class="message-form">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      id="userName"
+                      name="userName"
+                      placeholder="আপনার নাম*"
+                      required
+                      class="form-input"
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      id="userAddress"
+                      name="userAddress"
+                      placeholder="আপনার সম্পূর্ণ ঠিকানা*"
+                      required
+                      class="form-input"
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <input
+                      type="tel"
+                      id="userPhone"
+                      name="userPhone"
+                      placeholder="মোবাইল নম্বর (ঐচ্ছিক)"
+                      class="form-input"
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <select
+                      id="serviceType"
+                      name="serviceType"
+                      class="form-select"
+                    >
+                      <option value="">সার্ভিস টাইপ নির্বাচন করুন</option>
+                      <option value="home">হোম ইন্টারনেট</option>
+                    </select>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary form-submit">
+                    <i class="fab fa-whatsapp"></i> WhatsApp-এ মেসেজ পাঠান
+                  </button>
+                </form>
+
+                <div class="form-note">
+                  <i class="fas fa-shield-alt"></i>
+                  <span
+                    >আপনার তথ্য শুধুমাত্র সার্ভিস প্রদানের জন্য ব্যবহার করা
+                    হবে</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-buttons">
+              <a href="#packages" class="btn btn-secondary">প্যাকেজ দেখুন</a>
+              <a href="#speed-test" class="btn btn-outline">স্পিড টেস্ট</a>
+            </div>
+          </div>
+
+          <div class="hero-slider">
+            <div class="slider-container">
+              <div class="slider-track">
+                <div class="slide active">
+                  <img
+                    src="Home.jpg"
+                    alt="AICT Network Service"
+                    class="slide-image"
+                  />
+                </div>
+                <div class="slide">
+                  <img
+                    src="Home1.jpg"
+                    alt="Package Details"
+                    class="slide-image"
+                  />
+                </div>
+                <div class="slide">
+                  <img src="Home2.jpg" alt="Information" class="slide-image" />
+                </div>
+                <div class="slide">
+                  <img src="Home3.jpg" alt="Information" class="slide-image" />
+                </div>
+                <div class="slide">
+                  <img src="Home4.jpg" alt="Information" class="slide-image" />
+                </div>
+              </div>
+              <div class="slider-controls">
+                <button class="slider-btn prev-btn">
+                  <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-btn next-btn">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+              <div class="slider-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+                <span class="dot" data-slide="3"></span>
+                <span class="dot" data-slide="4"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="services" class="features">
+      <div class="container">
+        <h2 class="section-title">কেন AICT Global Network বেছে নেবেন?</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>উন্নত নিরাপত্তা</h3>
+            <p>এন্টি-ডিডিওএস, ফায়ারওয়াল, ইউজার আইসোলেশন — নিরাপদ ব্রাউজিং</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-tachometer-alt"></i>
+            </div>
+            <h3>উচ্চ-গতির পারফরম্যান্স</h3>
+            <p>
+              কম শেয়ারিং — বেশি গতি ও স্থিতিশীলতা। 4K স্ট্রিমিং, গেমিং — সব
+              স্মুথ
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-headset"></i>
+            </div>
+            <h3>২৪/৭ সাপোর্ট</h3>
+            <p>ডেডিকেটেড সাপোর্ট টিম ও টিকেটিং — দ্রুত ইস্যু রেজোলিউশন</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-signal"></i>
+            </div>
+            <h3>নির্ভরযোগ্য সংযোগ</h3>
+            <p>৯৯.৯% আপটাইম গ্যারান্টি সহ কনস্ট্যান্ট মনিটরিং</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Speed Test Section -->
+    <section id="speed-test" class="speed-test-section">
+      <div class="container">
+        <h2 class="section-title">ইন্টারনেট স্পিড টেস্ট</h2>
+        <p class="section-subtitle">
+          আপনার ইন্টারনেটের বর্তমান গতি পরীক্ষা করুন
+        </p>
+
+        <div class="speed-test-container">
+          <div class="speed-test-card">
+            <div class="speed-test-header">
+              <div class="speed-indicator">
+                <div class="speed-circle">
+                  <div class="speed-value" id="speedValue">0</div>
+                  <div class="speed-unit">Mbps</div>
+                </div>
+              </div>
+              <div class="speed-bars">
+                <div class="speed-bar download-bar">
+                  <div class="bar-label">ডাউনলোড</div>
+                  <div class="bar-container">
+                    <div class="bar-fill" id="downloadBar"></div>
+                    <div class="bar-text" id="downloadText">0 Mbps</div>
+                  </div>
+                </div>
+                <div class="speed-bar upload-bar">
+                  <div class="bar-label">আপলোড</div>
+                  <div class="bar-container">
+                    <div class="bar-fill" id="uploadBar"></div>
+                    <div class="bar-text" id="uploadText">0 Mbps</div>
+                  </div>
+                </div>
+                <div class="speed-bar ping-bar">
+                  <div class="bar-label">পিং</div>
+                  <div class="bar-container">
+                    <div class="bar-fill" id="pingBar"></div>
+                    <div class="bar-text" id="pingText">0 ms</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="speed-test-controls">
+              <button id="startTest" class="btn btn-primary">
+                <i class="fas fa-play"></i> টেস্ট শুরু করুন
+              </button>
+              <button id="resetTest" class="btn btn-outline">
+                <i class="fas fa-redo"></i> রিসেট
+              </button>
+            </div>
+
+            <div class="speed-test-info">
+              <div class="info-item">
+                <i class="fas fa-info-circle"></i>
+                <span
+                  >সঠিক ফলাফলের জন্য অন্য সব ডিভাইসে ইন্টারনেট ব্যবহার বন্ধ
+                  রাখুন</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="packages">
+      <div class="container">
+        <h2 class="section-title">আমাদের প্যাকেজসমূহ</h2>
+        <p class="section-subtitle">
+          আপনার প্রয়োজনের জন্য পারফেক্ট প্ল্যান বেছে নিন
+        </p>
+        <div class="packages-grid">
+          <div class="package-card featured">
+            <div class="package-badge">বেসিক</div>
+            <h3 class="package-name">বেসিক প্যাকেজ</h3>
+            <div class="package-speed">১৫ Mbps</div>
+            <div class="package-price">
+              <span class="currency">৳</span>
+              <span class="amount">৫০০</span>
+              <span class="period">/মাস</span>
+            </div>
+            <button
+              class="btn btn-primary payment-btn"
+              data-package="বেসিক প্যাকেজ"
+              data-price="500"
+            >
+              <i class="fas fa-credit-card"></i> এখনই কিনুন
+            </button>
+          </div>
+
+          <div class="package-card featured">
+            <div class="package-badge">সিলভার</div>
+            <h3 class="package-name">সিলভার প্যাকেজ</h3>
+            <div class="package-speed">২০ Mbps</div>
+            <div class="package-price">
+              <span class="currency">৳</span>
+              <span class="amount">৮০০</span>
+              <span class="period">/মাস</span>
+            </div>
+            <button
+              class="btn btn-primary payment-btn"
+              data-package="সিলভার প্যাকেজ"
+              data-price="800"
+            >
+              <i class="fas fa-credit-card"></i> এখনই কিনুন
+            </button>
+          </div>
+
+          <div class="package-card featured">
+            <div class="package-badge">গোল্ড</div>
+            <h3 class="package-name">গোল্ড প্যাকেজ</h3>
+            <div class="package-speed">২৫ Mbps</div>
+            <div class="package-price">
+              <span class="currency">৳</span>
+              <span class="amount">১০০০</span>
+              <span class="period">/মাস</span>
+            </div>
+            <button
+              class="btn btn-primary payment-btn"
+              data-package="গোল্ড প্যাকেজ"
+              data-price="1000"
+            >
+              <i class="fas fa-credit-card"></i> এখনই কিনুন
+            </button>
+          </div>
+          <div class="package-card featured">
+            <div class="package-badge">প্লাটিনাম</div>
+            <h3 class="package-name">প্লাটিনাম প্যাকেজ</h3>
+            <div class="package-speed">৩৫ Mbps</div>
+            <div class="package-price">
+              <span class="currency">৳</span>
+              <span class="amount">১৫০০</span>
+              <span class="period">/মাস</span>
+            </div>
+            <button
+              class="btn btn-primary payment-btn"
+              data-package="প্লাটিনাম প্যাকেজ"
+              data-price="1500"
+            >
+              <i class="fas fa-credit-card"></i> এখনই কিনুন
+            </button>
+          </div>
+          <div class="package-card featured">
+            <div class="package-badge">ডায়মন্ড</div>
+            <h3 class="package-name">ডায়মন্ড প্যাকেজ</h3>
+            <div class="package-speed">৫০ Mbps</div>
+            <div class="package-price">
+              <span class="currency">৳</span>
+              <span class="amount">২০০০</span>
+              <span class="period">/মাস</span>
+            </div>
+            <button
+              class="btn btn-primary payment-btn"
+              data-package="ডায়মন্ড প্যাকেজ"
+              data-price="2000"
+            >
+              <i class="fas fa-credit-card"></i> এখনই কিনুন
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Coverage Section -->
+    <section id="coverage" class="coverage-section">
+      <div class="container">
+        <h2 class="section-title">আমাদের সার্ভিস কভারেজ</h2>
+        <p class="section-subtitle">
+          নিম্নলিখিত এলাকাগুলোতে আমাদের সার্ভিস উপলব্ধ
+        </p>
+
+        <div class="coverage-grid">
+          <div class="coverage-card">
+            <div class="coverage-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3>ঢাকা সিটি</h3>
+            <ul class="coverage-areas">
+              <li>মিরপুর</li>
+              <li>পল্লবী</li>
+              <li>মোহাম্মদপুর</li>
+              <li>উত্তরা</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="coverage-message">
+          <div class="message-content">
+            <i class="fas fa-info-circle"></i>
+            <div>
+              <h4>দ্রুত সার্ভিস এক্সপেনশন</h4>
+              <p>
+                আমরা দ্রুততার সাথে ঢাকার অন্যান্য এলাকায় আমাদের সার্ভিস
+                সম্প্রসারণ করছি। আপনার এলাকায় সার্ভিস চেক করতে WhatsApp-এ মেসেজ
+                করুন।
+              </p>
+            </div>
+          </div>
+          <a
+            href="https://wa.me/8801990020074"
+            class="btn btn-primary"
+            target="_blank"
+          >
+            <i class="fab fa-whatsapp"></i> সার্ভিস চেক করুন
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FTP Servers Section -->
+    <section id="ftp" class="ftp-section">
+      <div class="container">
+        <h2 class="section-title">FTP সার্ভার এক্সেস</h2>
+        <p class="section-subtitle">
+          আমাদের গ্রাহকদের জন্য উচ্চ-গতির ফাইল ট্রান্সফার সার্ভার
+        </p>
+        <div class="ftp-grid">
+          <div class="ftp-card">
+            <div class="ftp-icon">
+              <i class="fas fa-film"></i>
+            </div>
+            <h3>মুভি সার্ভার</h3>
+            <p class="ftp-description">
+              সর্বশেষ মুভি এবং সিরিজের বিশাল কালেকশন
+            </p>
+            <div class="ftp-details">
+              <p><strong>IP Address:</strong> 10.16.100.244</p>
+              <p><strong>Content:</strong> Movies, Series, TV Shows</p>
+              <p><strong>Speed:</strong> Up to 100 Mbps</p>
+            </div>
+            <a
+              href="http://10.16.100.244"
+              class="btn btn-primary"
+              target="_blank"
+            >
+              <i class="fas fa-link"></i> সার্ভার ১ এক্সেস করুন
+            </a>
+          </div>
+
+          <div class="ftp-card">
+            <div class="ftp-icon">
+              <i class="fas fa-newspaper"></i>
+            </div>
+            <h3>নিউজ সার্ভার</h3>
+            <p class="ftp-description">সর্বশেষ নিউজ এবং আপডেটের সংগ্রহ</p>
+            <div class="ftp-details">
+              <p><strong>IP Address:</strong> 10.99.99.99</p>
+              <p><strong>Content:</strong> News, Updates, Documents</p>
+              <p><strong>Speed:</strong> Up to 100 Mbps</p>
+            </div>
+            <a
+              href="http://10.99.99.99"
+              class="btn btn-primary"
+              target="_blank"
+            >
+              <i class="fas fa-link"></i> সার্ভার ২ এক্সেস করুন
+            </a>
+          </div>
+        </div>
+        <div class="ftp-note">
+          <i class="fas fa-info-circle"></i>
+          <p>
+            FTP সার্ভার শুধুমাত্র একটিভ সাবস্ক্রাইবারদের জন্য এক্সেসযোগ্য। লগইন
+            ক্রেডেনশিয়ালের জন্য আমাদের সাথে যোগাযোগ করুন।
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <h2 class="section-title">আমাদের গ্রাহকরা কী বলেন</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "স্ট্রিমিং এবং গেমিংয়ের জন্য পারফেক্ট। সাপোর্ট খুব দ্রুত।"
+            </p>
+            <p class="testimonial-author">— ধ্রুব</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "রিমোট ওয়ার্কের সময় কোন ড্রপ নেই। অত্যন্ত সুপারিশকৃত!"
+            </p>
+            <p class="testimonial-author">— নয়ন</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "মানের তুলনায় দাম খুবই যুক্তিসঙ্গত। প্রতিশ্রুত গতি ক্রমাগত
+              পাচ্ছি।"
+            </p>
+            <p class="testimonial-author">— রাসেল</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">যোগাযোগ করুন</h2>
+        <p class="section-subtitle">
+          সংযোগ, আপগ্রেড, বিলিং — যেকোনো সহায়তার জন্য আমাদের সাথে যোগাযোগ করুন
+        </p>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fab fa-whatsapp"></i>
+            </div>
+            <h3>WhatsApp</h3>
+            <p>দ্রুত প্রতিক্রিয়া পান WhatsApp-এ</p>
+            <a
+              href="https://wa.me/8801990020074"
+              class="btn btn-primary"
+              target="_blank"
+            >
+              <i class="fab fa-whatsapp"></i> এখনই চ্যাট করুন
+            </a>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fab fa-whatsapp"></i>
+            </div>
+            <h3>ফোন/WhatsApp</h3>
+            <p>যেকোনো সময় কল করুন</p>
+            <a
+              href="https://wa.me/8801990020074"
+              class="btn btn-primary"
+              target="_blank"
+            >
+              <i class="fab fa-whatsapp"></i> কল/মেসেজ করুন
+            </a>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fab fa-facebook"></i>
+            </div>
+            <h3>ফেসবুক</h3>
+            <p>আমাদের ফেসবুক পেজ</p>
+            <a
+              href="https://www.facebook.com/profile.php?id=61579021272097"
+              class="btn btn-primary"
+              target="_blank"
+            >
+              <i class="fab fa-facebook"></i> ভিজিট করুন
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h4>সার্ভিস সময়</h4>
+              <p>২৪/৭ সাপোর্ট</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>ঠিকানা</h4>
+              <p>মিরপুর, ঢাকা, বাংলাদেশ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Payment Modal -->
+    <div id="paymentModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>পেমেন্ট করুন</h2>
+        <div class="payment-details">
+          <p><strong>প্যাকেজ:</strong> <span id="selectedPackage"></span></p>
+          <p><strong>মূল্য:</strong> ৳<span id="selectedPrice"></span>/মাস</p>
+        </div>
+        <div class="payment-options">
+          <h3>পেমেন্ট অপশন নির্বাচন করুন:</h3>
+          <div class="payment-methods">
+            <div class="payment-method">
+              <input
+                type="radio"
+                id="bkash"
+                name="paymentMethod"
+                value="bkash"
+                checked
+              />
+              <label for="bkash"> bKash </label>
+            </div>
+            <div class="payment-method">
+              <input
+                type="radio"
+                id="nagad"
+                name="paymentMethod"
+                value="nagad"
+              />
+              <label for="nagad"> Nagad </label>
+            </div>
+            <div class="payment-method">
+              <input
+                type="radio"
+                id="rocket"
+                name="paymentMethod"
+                value="rocket"
+              />
+              <label for="rocket"> Rocket </label>
+            </div>
+          </div>
+        </div>
+        <div class="payment-form">
+          <div id="mobilePayment" class="payment-form-section">
+            <div class="form-group">
+              <label for="phoneNumber">মোবাইল নম্বর:</label>
+              <input type="text" id="phoneNumber" placeholder="01XXXXXXXXX" />
+            </div>
+            <div class="form-group">
+              <label for="transactionId">ট্রানজেকশন আইডি:</label>
+              <input
+                type="text"
+                id="transactionId"
+                placeholder="TRX123456789"
+              />
+            </div>
+            <div class="payment-instructions">
+              <h4>পেমেন্ট নির্দেশিকা:</h4>
+              <ol>
+                <li>বিকাশ/নগদ/রকেট অ্যাপে যান</li>
+                <li>নিচের নাম্বারে পাঠান: <strong>০১৭XXXXXXXX</strong></li>
+                <li>ট্রানজেকশন আইডি নোট করুন</li>
+                <li>উপরের ফর্মে তথ্য দিন</li>
+              </ol>
+            </div>
+          </div>
+          <button id="confirmPayment" class="btn btn-primary">
+            <i class="fas fa-lock"></i> পেমেন্ট নিশ্চিত করুন
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>AICT Global Network</h3>
+            <p>
+              আপনার নির্ভরযোগ্য ইন্টারনেট পরিষেবা প্রদানকারী উচ্চ-গতির সংযোগ এবং
+              ২৪/৭ সাপোর্ট সহ।
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4>দ্রুত লিংক</h4>
+            <ul>
+              <li><a href="#home">হোম</a></li>
+              <li><a href="#services">সেবাসমূহ</a></li>
+              <li><a href="#packages">প্যাকেজ</a></li>
+              <li><a href="#speed-test">স্পিড টেস্ট</a></li>
+              <li><a href="#coverage">কভারেজ</a></li>
+              <li><a href="#ftp">FTP</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>যোগাযোগ</h4>
+            <ul>
+              <li>
+                <a href="https://wa.me/8801990020074" target="_blank"
+                  ><i class="fab fa-whatsapp"></i> WhatsApp</a
+                >
+              </li>
+              <li>
+                <a href="tel:+8801990020074"
+                  ><i class="fas fa-phone"></i> +8801990020074</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61579021272097"
+                  target="_blank"
+                  ><i class="fab fa-facebook"></i> Facebook</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>ফলো করুন</h4>
+            <div class="social-links">
+              <a
+                href="https://www.facebook.com/profile.php?id=61579021272097"
+                target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/aictglobalnetwork"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://wa.me/8801990020074" target="_blank"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; ২০২৫ AICT Global Network. সর্বস্বত্ব সংরক্ষিত।</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a
+      href="https://wa.me/8801990020074"
+      class="whatsapp-float"
+      target="_blank"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="Script.js"></script>
+  </body>
+</html>
